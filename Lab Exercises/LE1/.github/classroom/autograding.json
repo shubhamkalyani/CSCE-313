@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "1 Compilation",
+      "setup": "make test > ./.gradefile",
+      "run": "grep \"One\" .gradefile",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 34
+    },
+    {
+      "name": "2 Correct Output",
+      "setup": "",
+      "run": "grep \"Two\" .gradefile",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 33
+    },
+    {
+      "name": "3 No leaking memory",
+      "setup": "",
+      "run": "grep \"Three\" .gradefile",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 33
+    }
+  ]
+}
