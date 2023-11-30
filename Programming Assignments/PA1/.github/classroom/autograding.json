@@ -1,0 +1,214 @@
+{
+  "tests": [
+    {
+      "name": "1. Verify server runs as child",
+      "setup": "mv /pa1-alltests.sh . && ./pa1-alltests.sh > report.txt",
+      "run": "grep \"[[:space:]]One[[:space:]]\" report.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 15
+    },
+    {
+      "name": "2. Requesting Data Points",
+      "setup": "",
+      "run": "grep \"[[:space:]]Two[[:space:]]\" report.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "3. Requesting Data Points",
+      "setup": "",
+      "run": "grep \"[[:space:]]Three[[:space:]]\" report.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 3
+    },
+    {
+      "name": "4. Private Test 1",
+      "setup": "",
+      "run": "grep \"[[:space:]]Four[[:space:]]\" report.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "5. Requesting Data Points",
+      "setup": "",
+      "run": "grep \"[[:space:]]Five[[:space:]]\" report.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 3
+    },
+    {
+      "name": "6. Requesting Data Points",
+      "setup": "",
+      "run": "grep \"[[:space:]]Six[[:space:]]\" report.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 3
+    },
+    {
+      "name": "7. Private Test 2",
+      "setup": "",
+      "run": "grep \"[[:space:]]Seven[[:space:]]\" report.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "8. Requesting Files",
+      "setup": "",
+      "run": "grep \"[[:space:]]Eight[[:space:]]\" report.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "9. Requesting Files",
+      "setup": "",
+      "run": "grep \"[[:space:]]Nine[[:space:]]\" report.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "10. Private Test 3",
+      "setup": "",
+      "run": "grep \"[[:space:]]Ten[[:space:]]\" report.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "11. Requesting Files",
+      "setup": "",
+      "run": "grep \"[[:space:]]Eleven[[:space:]]\" report.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "12. Private Test 4",
+      "setup": "",
+      "run": "grep \"[[:space:]]Twelve[[:space:]]\" report.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "13. Requesting Binary Files",
+      "setup": "",
+      "run": "grep \"[[:space:]]Thirteen[[:space:]]\" report.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 5
+    },
+    {
+      "name": "14. Private Test 5",
+      "setup": "",
+      "run": "grep \"[[:space:]]Fourteen[[:space:]]\" report.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "15. Requesting Binary Files",
+      "setup": "",
+      "run": "grep \"[[:space:]]Fifteen[[:space:]]\" report.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 5
+    },
+    {
+      "name": "16. Private Test 6",
+      "setup": "",
+      "run": "grep \"[[:space:]]Sixteen[[:space:]]\" report.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 3
+    },
+    {
+      "name": "17. Requesting New Channel",
+      "setup": "",
+      "run": "grep \"[[:space:]]Seventeen[[:space:]]\" report.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 3
+    },
+    {
+      "name": "18. Requesting New Channel",
+      "setup": "",
+      "run": "grep \"[[:space:]]Eighteen[[:space:]]\" report.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "19. Private Test 7",
+      "setup": "",
+      "run": "grep \"[[:space:]]Nineteen[[:space:]]\" report.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "20. Private Test 8",
+      "setup": "",
+      "run": "grep \"[[:space:]]Twenty[[:space:]]\" report.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "21. Closing Channels",
+      "setup": "",
+      "run": "grep \"[[:space:]]TwentyOne[[:space:]]\" report.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 5
+    }
+  ]
+}
